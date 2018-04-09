@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		B20BD2DA2079803F007A63EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2D92079803F007A63EC /* AppDelegate.swift */; };
-		B20BD2DC2079803F007A63EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2DB2079803F007A63EC /* ViewController.swift */; };
 		B20BD2DF2079803F007A63EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20BD2DD2079803F007A63EC /* Main.storyboard */; };
 		B20BD2E120798042007A63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20BD2E020798042007A63EC /* Assets.xcassets */; };
 		B20BD2E420798042007A63EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20BD2E220798042007A63EC /* LaunchScreen.storyboard */; };
+		B20BD2F1207980FF007A63EC /* CMainControllerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2EC207980FF007A63EC /* CMainControllerInteraction.swift */; };
+		B20BD2F2207980FF007A63EC /* CMainControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2ED207980FF007A63EC /* CMainControllerTransition.swift */; };
+		B20BD2F3207980FF007A63EC /* CMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2EE207980FF007A63EC /* CMain.swift */; };
+		B20BD2F4207980FF007A63EC /* CMainControllerTransitionPushRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2EF207980FF007A63EC /* CMainControllerTransitionPushRight.swift */; };
+		B20BD2F5207980FF007A63EC /* CMainControllerTransitionReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2F0207980FF007A63EC /* CMainControllerTransitionReplace.swift */; };
+		B20BD2F820798145007A63EC /* CBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2F720798145007A63EC /* CBaseController.swift */; };
+		B20BD2FB207981E5007A63EC /* CWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2FA207981E5007A63EC /* CWelcomeController.swift */; };
+		B20BD2FE207982AC007A63EC /* VWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2FD207982AC007A63EC /* VWelcomeView.swift */; };
+		B20BD30320798411007A63EC /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD30220798411007A63EC /* UIFactory.swift */; };
+		B20BD3052079AEF5007A63EC /* VMainShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD3042079AEF5007A63EC /* VMainShade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B20BD2D62079803F007A63EC /* PBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20BD2D92079803F007A63EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B20BD2DB2079803F007A63EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B20BD2DE2079803F007A63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B20BD2E020798042007A63EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20BD2E320798042007A63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20BD2E520798042007A63EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20BD2EC207980FF007A63EC /* CMainControllerInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMainControllerInteraction.swift; sourceTree = "<group>"; };
+		B20BD2ED207980FF007A63EC /* CMainControllerTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMainControllerTransition.swift; sourceTree = "<group>"; };
+		B20BD2EE207980FF007A63EC /* CMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMain.swift; sourceTree = "<group>"; };
+		B20BD2EF207980FF007A63EC /* CMainControllerTransitionPushRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMainControllerTransitionPushRight.swift; sourceTree = "<group>"; };
+		B20BD2F0207980FF007A63EC /* CMainControllerTransitionReplace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMainControllerTransitionReplace.swift; sourceTree = "<group>"; };
+		B20BD2F720798145007A63EC /* CBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBaseController.swift; sourceTree = "<group>"; };
+		B20BD2FA207981E5007A63EC /* CWelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWelcomeController.swift; sourceTree = "<group>"; };
+		B20BD2FD207982AC007A63EC /* VWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeView.swift; sourceTree = "<group>"; };
+		B20BD30220798411007A63EC /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		B20BD3042079AEF5007A63EC /* VMainShade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMainShade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,63 @@
 		B20BD2D82079803F007A63EC /* PBox */ = {
 			isa = PBXGroup;
 			children = (
+				B20BD2FF207983FB007A63EC /* Extensions */,
+				B20BD2FC20798296007A63EC /* Views */,
+				B20BD2EB207980FF007A63EC /* Controllers */,
 				B20BD2D92079803F007A63EC /* AppDelegate.swift */,
-				B20BD2DB2079803F007A63EC /* ViewController.swift */,
 				B20BD2DD2079803F007A63EC /* Main.storyboard */,
 				B20BD2E020798042007A63EC /* Assets.xcassets */,
 				B20BD2E220798042007A63EC /* LaunchScreen.storyboard */,
 				B20BD2E520798042007A63EC /* Info.plist */,
 			);
 			path = PBox;
+			sourceTree = "<group>";
+		};
+		B20BD2EB207980FF007A63EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD2F9207981D8007A63EC /* Main */,
+				B20BD2F620798139007A63EC /* BaseController */,
+				B20BD2EC207980FF007A63EC /* CMainControllerInteraction.swift */,
+				B20BD2ED207980FF007A63EC /* CMainControllerTransition.swift */,
+				B20BD2EE207980FF007A63EC /* CMain.swift */,
+				B20BD2EF207980FF007A63EC /* CMainControllerTransitionPushRight.swift */,
+				B20BD2F0207980FF007A63EC /* CMainControllerTransitionReplace.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B20BD2F620798139007A63EC /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD2F720798145007A63EC /* CBaseController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		B20BD2F9207981D8007A63EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD2FA207981E5007A63EC /* CWelcomeController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B20BD2FC20798296007A63EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD3042079AEF5007A63EC /* VMainShade.swift */,
+				B20BD2FD207982AC007A63EC /* VWelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B20BD2FF207983FB007A63EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B20BD30220798411007A63EC /* UIFactory.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20BD2DC2079803F007A63EC /* ViewController.swift in Sources */,
+				B20BD2F4207980FF007A63EC /* CMainControllerTransitionPushRight.swift in Sources */,
+				B20BD2F2207980FF007A63EC /* CMainControllerTransition.swift in Sources */,
+				B20BD2F1207980FF007A63EC /* CMainControllerInteraction.swift in Sources */,
+				B20BD2F820798145007A63EC /* CBaseController.swift in Sources */,
+				B20BD30320798411007A63EC /* UIFactory.swift in Sources */,
 				B20BD2DA2079803F007A63EC /* AppDelegate.swift in Sources */,
+				B20BD2F3207980FF007A63EC /* CMain.swift in Sources */,
+				B20BD2FB207981E5007A63EC /* CWelcomeController.swift in Sources */,
+				B20BD2F5207980FF007A63EC /* CMainControllerTransitionReplace.swift in Sources */,
+				B20BD2FE207982AC007A63EC /* VWelcomeView.swift in Sources */,
+				B20BD3052079AEF5007A63EC /* VMainShade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
