@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9F0F50207D7AA200DEAA33 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9F0F4F207D7AA200DEAA33 /* UIColorExt.swift */; };
 		B20BD2DA2079803F007A63EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BD2D92079803F007A63EC /* AppDelegate.swift */; };
 		B20BD2DF2079803F007A63EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20BD2DD2079803F007A63EC /* Main.storyboard */; };
 		B20BD2E120798042007A63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20BD2E020798042007A63EC /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D9F0F4F207D7AA200DEAA33 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
 		B20BD2D62079803F007A63EC /* PBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20BD2D92079803F007A63EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B20BD2DE2079803F007A63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				B20BD30220798411007A63EC /* UIFactory.swift */,
+				0D9F0F4F207D7AA200DEAA33 /* UIColorExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20BD2F4207980FF007A63EC /* CMainControllerTransitionPushRight.swift in Sources */,
+				0D9F0F50207D7AA200DEAA33 /* UIColorExt.swift in Sources */,
 				B20BD2F2207980FF007A63EC /* CMainControllerTransition.swift in Sources */,
 				B20BD2F1207980FF007A63EC /* CMainControllerInteraction.swift in Sources */,
 				B20BD2F820798145007A63EC /* CBaseController.swift in Sources */,
