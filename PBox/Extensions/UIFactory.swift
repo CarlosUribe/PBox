@@ -9,10 +9,23 @@
 import UIKit
 
 class UIFactory{
+    
     static let shared:UIFactory = UIFactory()
+    
+    var views:[String:UIView] = [:]
+    var metrics:[String:CGFloat] = [:]
+    
     private init(){
     }
 
+    func addConstrainsWithFormat(format:String, to view:UIView){
+        view.addConstraints(NSLayoutConstraint.constraints(
+            withVisualFormat:format,
+            options:[],
+            metrics:metrics,
+            views:views))
+    }
+    
     func getButton(withText text:String,
                    bordered:Bool = false,
                    borderColor:UIColor = .clear,
@@ -48,5 +61,17 @@ class UIFactory{
         stackView.alignment = .center
 
         return stackView
+    }
+    
+    func getLabel(withText text:String? = nil, textColor:UIColor = .white, backgroundColor:UIColor = .clear) -> UILabel{
+        let label:UILabel = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.clipsToBounds = true
+        label.text = text
+        label.textColor = textColor
+        label.backgroundColor = backgroundColor
+        label.textAlignment = .center
+        
+        return label
     }
 }

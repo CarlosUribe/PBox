@@ -250,7 +250,7 @@ class VWelcomeView:UIView{
 
     func stop() {
         elapsed = Date().timeIntervalSinceReferenceDate - startTime
-        timer?.invalidate()
+//        timer?.invalidate()
         // Set Start/Stop button to false
         status = false
     }
@@ -276,9 +276,9 @@ class VWelcomeView:UIView{
         let strMilliseconds = String(format: "%02d", milliseconds)
 
         // Add time vars to relevant labels
-        labelMinute.text = strMinutes
-        labelSecond.text = strSeconds
-        labelMillisecond.text = strMilliseconds
+//        labelMinute.text = strMinutes
+//        labelSecond.text = strSeconds
+//        labelMillisecond.text = strMilliseconds
 
     }
     
